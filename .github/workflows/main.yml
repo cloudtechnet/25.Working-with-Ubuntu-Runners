@@ -21,3 +21,12 @@ jobs:
           do
             echo "Step $i"
           done
+
+    steps:
+      - name: Install Tree Package
+        run: |
+          sudo apt-get update
+          sudo apt-get install tree -y
+
+      - name: Verify Installation
+        run: tree
