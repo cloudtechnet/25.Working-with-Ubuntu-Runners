@@ -1,0 +1,11 @@
+name: Ubuntu Runner Demo
+
+on: push
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Display Message
+        run: echo "Hello from Ubuntu Runner"
