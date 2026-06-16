@@ -12,3 +12,12 @@ jobs:
 
       - name: List Files
         run: ls -la
+    
+      - name: Bash Script
+        run: |
+          echo "Starting Build"
+
+          for i in 1 2 3
+          do
+            echo "Step $i"
+          done
