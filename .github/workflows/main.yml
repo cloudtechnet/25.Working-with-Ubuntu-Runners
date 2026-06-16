@@ -22,7 +22,7 @@ jobs:
             echo "Step $i"
           done
 
-    steps:
+    
       - name: Install Tree Package
         run: |
           sudo apt-get update
